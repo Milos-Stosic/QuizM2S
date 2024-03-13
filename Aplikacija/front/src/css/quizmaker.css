@@ -1,0 +1,215 @@
+.QuizMaker {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/696/278/original/textured-black-background-vector.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5.44vh 0;
+  column-gap: 10vh;
+  min-height: 100vh;
+}
+
+.QuizMaker h1 {
+  color: white;
+  height: fit-content;
+}
+
+.Right,
+.Left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.QuizMaker h2 {
+  margin: 20px !important; 
+}
+  .NazKatTez {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    padding: 7%;
+    min-width: 400px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.12);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+  }
+  
+  select {
+    width: 100%;
+    margin-left: auto;
+  }
+  .Naziv,
+  .Kategorija,
+  .Tezina {
+    display: flex;
+    margin: 2% 0%;
+    gap: 2vh;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .Naziv{
+    flex-direction: column;
+  }
+  #naziv {
+    width: 100%;
+  }
+  .Pitanja{
+    display: flex;
+    flex-direction: column;
+  }
+  .Pitanje{
+    display: flex;
+    background-color: #161616;
+    flex-direction: column;
+    margin:auto;
+    max-width: 600px;
+    min-width: fit-content;
+    margin-bottom: 5%;
+    padding: 4%;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.12);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+  }
+  .Pitanje label{
+    width: fit-content;
+    margin: 5px 0 5px 0;
+    font-size: 100%;
+  }
+  .divPit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  .QuizMaker input[type="text"]{
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.2);
+    border: 0;
+    padding: 5px;
+    border-radius: 10px;
+    margin:0;
+    height: fit-content;
+  } 
+  .divPit input{
+    width: 100%;
+  }
+  .QuizMaker select{
+    width: 35%;
+    height: fit-content;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.2);
+    border: 0;
+    border-radius: 10px;
+    color:white;
+  }
+    
+  select:focus {
+    outline: none;
+    border-color: aqua;
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+  }
+  select:active{
+    border-color: aqua;
+  }
+  select option {
+    background-color: black;
+    color: white;
+    border-color: aqua;
+  }
+  .QuizMaker input:focus, .QuizMaker select:focus{
+    color: aqua !important;
+  }
+  .odgOkvir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .odgovori{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+  .odgovor{
+    display: flex;
+    margin: 2%;
+    gap: 5%;
+    width: 40%;
+    min-width: 150px;
+  }
+  .QuizMaker button{  
+    margin-left: auto;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    font-size: 100%;
+    border-radius: 10px;
+  }
+  .QuizMaker button:hover{
+    cursor: pointer;
+    color:aqua;
+    border:2px solid aqua;
+    box-shadow: 0px 0px 10px 0px rgba(0, 255, 255, 0.5);
+  }
+  .QuizMaker h1, .QuizMaker h2{
+    text-align: center;
+    margin: 1%;
+  }
+  .QuizMaker h1{
+    width: 100%;
+  }
+  .DodajPitanje, .DodajKviz{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .brojacOdgovora{
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+  }
+  .brojacOdgovora button{
+    margin:0;
+  }
+  .popup{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .popup *{
+    background-color: transparent !important;
+    border: 0 !important;
+    box-shadow: 0 0 0 0 transparent !important;
+    color:red;
+    padding: 0;
+  }
+  .popup button:hover{
+    color:#ff0000aa;
+  }
+  .noClicks {
+  pointer-events: none;
+}
+.noClicks:hover{
+  cursor: wait !important;
+}
+.odg{
+  min-width: 100px;
+}
+@media screen and (max-width: 768px) {
+  .NazKatTez {
+    min-width: 200px;
+  }
+  label,button,select{
+    font-size: small !important;
+  }
+}

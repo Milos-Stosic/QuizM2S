@@ -1,0 +1,44 @@
+.crno{
+    color:black;
+}
+
+.ready-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-ready-da, .button-ready-ne{
+    color: #999;
+    background: linear-gradient(to bottom, hsl(37, 7%, 22%), hsl(37, 5%, 19%) 100%);
+    font-size: 1.1em;
+    text-align: center;
+    padding: 0.5em;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    user-select: none;
+    white-space: nowrap;
+    display: inline-block;
+    transition: all 150ms;
+    width: 100%;    
+    border-radius: 15px;
+    min-width: fit-content;
+    min-height: fit-content;
+    margin-bottom: 20px;
+}
+
+.button-ready-da{
+    margin-top:20px;
+}
+
+.button-ready-da:hover{
+    background: rgba(0, 255, 0, 0.5);
+    color: white;
+}
+
+.button-ready-ne:hover{
+    background: rgba(255, 0, 0, 0.5);
+    color: white;
+}
+

@@ -1,0 +1,116 @@
+.whole-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/696/278/original/textured-black-background-vector.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 90vh;
+}
+
+.pitanje-odgovor-div {
+  width: 75%;
+  max-height: fit-content;
+  margin-top: 30px;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 4px 4px 10px 0px rgba(245, 222, 179, 0.25);
+  padding: 20px 0px;
+  border-radius: 28px;
+  justify-items: center;
+}
+
+.question {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 255, 255, 0.3);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: fit-content;
+}
+
+.pitanje-text {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 150%;
+  margin: 6px;
+}
+
+.answers-div {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(2, 1fr);
+  max-height: fit-content;
+  width: 100%;
+}
+.time-left{
+  height: 10px;
+  background-color: white;
+}
+
+.answer, .correct, .incorrect{
+  display: flex;
+  justify-content: center;
+  margin: 4%;
+  border-radius: 10px;
+  max-height: fit-content;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 10px 0px rgba(245, 222, 179, 0.25);
+}
+
+.answer:hover {
+  background-color: rgba(0, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.correct{
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+.incorrect{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+/* .incorrect + .correct{
+  background-color: yellow;
+} */
+
+.answer-text {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 3%;
+}
+
+.button-next-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  background-color: transparent;
+}
+
+.next-button {
+  color: white;
+  font-size: 0.95em;
+  cursor: pointer;
+  padding: 10px;
+  text-transform: uppercase;
+  display: inline-block;
+  user-select: none;
+  white-space: nowrap;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.12);
+  box-shadow: 4px 4px 10px 0px rgba(245, 222, 179, 0.25);
+}
+.next-button:hover{
+  cursor:pointer;
+  color: aqua;
+  border: 2px solid aqua;
+  box-shadow: 4px 4px 10px 0px rgba(0, 255, 255, 0.25);
+}

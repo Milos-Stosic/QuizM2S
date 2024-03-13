@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  font-family: "Rubik";
+  color: white;
+  letter-spacing: 1px;
+}
+.App{
+  display: flex; 
+  flex-direction: column;
+  background-size: 100% 100%;
+  height: fit-content;
+  min-height: 100%;
+  background-color: black;
+}
+.root-layout{
+  display: flex;
+  flex-direction: column;
+}
+.page{
+  height: 100%;
+  background-size: 100% 100%;
+}
+.Radiobox{
+  padding: 20px;
+  margin: auto;
+  width: fit-content;
+}
+.Radiobox *{
+  color:black;
+}
+.CategoriesOkvir{
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+.Categories{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+.Cat {
+  padding: 2%;
+  margin:2%;
+  width: 15vh;
+  height: 30vh;
+  text-align: center;
+  background-color: black;
+  border-radius: 2vh;
+}
+.Cat:hover {
+  box-shadow: 0 0 0 2px black;
+  border-color: black;
+  cursor: pointer;
+}
+.Cat h4{
+  color: gold;
+  font-size: 110%;
+}
+.Cat label{
+  color:white;
+  font-size: 90%;
+}
+
+.Cat:hover h4, .Cat:hover label{
+  color:darkorange;
+}

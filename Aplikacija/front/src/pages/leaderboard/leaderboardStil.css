@@ -1,0 +1,79 @@
+
+
+.lista{
+    padding: 2%;
+    padding-bottom: 30%;
+    gap: 10px;
+    font-family: "Quicksand";
+   /* flex-wrap: wrap; */
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/696/278/original/textured-black-background-vector.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+     }
+  .nickL{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+
+    background-color: transparent;
+  }
+  
+  .red{
+    font-family: "Quicksand";
+    color:#eeeeee;
+    background-color: transparent;
+    /* padding: auto; */
+    margin: 10%;
+    min-width: 20vh;
+  }
+  .rBr{
+    font-family: "Quicksand";
+    color:#eeeeee;
+    background-color: transparent;
+     width: fit-content;
+     padding-left: 5px;
+  }
+  .tagovi{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+  }
+  .labela{
+    margin: 10%;
+  }
+  .redovi{
+    height: fit-content;
+    border: 1px solid #131039;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    max-width: 100%;
+    box-shadow: 0px 0px 7px 0px white;
+    align-items: center;
+    column-gap: 5px;
+  }
+  .redovi *:hover{
+    cursor: pointer;
+  }
+  .listaR{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0; */
+    font-family: "Quicksand";
+    color:#eeeeee;
+    background-color: transparent;
+  }
+  @media screen and (max-width: 768px) {
+    .red{
+    min-width: 10vh;
+    }
+  }

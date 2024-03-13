@@ -1,0 +1,144 @@
+.div-result {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  align-items: center;
+}
+.rezultatDiv {
+  display: flex;
+  column-gap: 10px;
+}
+.h2-result,
+.p-result {
+  font-style: italic;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: large;
+  color: white;
+}
+
+.p-result {
+    font-size:large;
+  color: red;
+}
+
+.obavestenje{
+  color:aqua;
+}
+
+.star-rating{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    align-items: center;
+}
+.on {
+  color: yellow;
+}
+.off {
+  color: grey;
+}
+
+.star{
+    font-size:270%;
+    color: inherit;
+}
+
+
+.button-result {
+  color: white;
+  font-size: 0.95em;
+  cursor: pointer;
+  padding: 10px;
+  text-transform: uppercase;
+  display: inline-block;
+  user-select: none;
+  white-space: nowrap;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.12);
+  box-shadow: 4px 4px 10px 0px rgba(245, 222, 179, 0.25);
+}
+
+.button-result:hover {
+  cursor: pointer;
+  color: aqua;
+  border: 2px solid aqua;
+  box-shadow: 4px 4px 10px 0px rgba(0, 255, 255, 0.25);
+}
+
+.button-result-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: transparent;
+}
+.score-div {
+  height: 100px;
+  color: red;
+}
+
+.table-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-height: 250px;
+  overflow-y: scroll;
+  padding-left: 4px;
+}
+
+.table {
+  margin-top: 2%;
+  width: 100%;
+  color: black;
+}
+.table th {
+  top: 0;
+  position: sticky;
+  padding: 1%;
+  text-align: center;
+  border-radius: 2px;
+}
+.table td {
+  text-align: center;
+  justify-content: space-between;
+}
+
+.table th {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.current-user {
+  background-color: rgba(0, 255, 255, 0.2);
+}
+
+.not-current-user {
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.table-div::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.table-div::-webkit-scrollbar-corner {
+  background: transparent;
+  border-radius: 5px;
+}
+.table-div::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 5px;
+}
+
+.table-div::-webkit-scrollbar-thumb {
+  background-color: #404040;
+  border-radius: 14px;
+  border: 3px solid rgb(53, 53, 53);
+}

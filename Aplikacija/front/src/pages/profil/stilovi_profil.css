@@ -1,0 +1,433 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+.profilBasSve {
+  margin: 0;
+  font-family: "Quicksand";
+
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  color:#eeeeee;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/696/278/original/textured-black-background-vector.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  overflow: auto; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/696/278/original/textured-black-background-vector.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.profilBasSveU {
+  margin: 0;
+  font-family: "Quicksand";
+
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  color:#eeeeee;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/696/278/original/textured-black-background-vector.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%; */
+  padding-top: 10vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  width: 100%;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/696/278/original/textured-black-background-vector.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sacuvaj-btn {
+  width: fit-content;
+  color: #eeeeee;
+  border: none;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 1.5vh 5.3vh;
+  cursor: pointer;
+  border: 2px solid white;
+  background-color: rgba(128, 128, 128, 0.12);
+  box-shadow: 4px 4px 10px 0px rgba(245, 222, 179, 0.25);
+}
+
+.sacuvaj-btn:hover {
+  cursor: pointer;
+  border: 2px solid aqua;
+  box-shadow: 4px 4px 10px 0px rgba(0, 255, 255, 0.25);
+  color: aqua;
+}
+
+.tabela {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  font-family: "Quicksand";
+  color: #131039;
+  background-color: #eeeeee;
+}
+.tData {
+  color: #131039;
+  justify-content: space-between;
+}
+
+.profilSve {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profilU {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 5%;
+  margin-left: 1%;
+}
+.profil {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  width: 100%;
+  margin: 5%;
+  margin-left: 5%;
+}
+.donji {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 10vh;
+  margin-bottom: 10vh;
+  margin-right: 10vh;
+}
+
+.bioLab,
+.profLab,
+.lozinkaLab {
+  margin-left: 5%;
+  margin-bottom: 1vh;
+  color: #eeeeee;
+  
+}
+.korisnik {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+
+  width: 40%;
+  height: 40%;
+}
+
+.nickname {
+  color: white;
+  font-size: 36px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: fit-content;
+  width: fit-content;
+}
+.labela {
+  color: #eeeeee;
+}
+.brojP,
+.brojQ {
+  color: white;
+
+  font-size: 16px;
+
+  display: flex;
+  justify-content: center;
+
+  height: fit-content;
+  width: fit-content;
+}
+/* .brojQ{
+   
+    color: white;
+  
+    font-size: 16px;
+  
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    height: fit-content;
+   width:fit-content;
+  
+   
+  } */
+.myImage {
+  width: 20vh;
+  height: 20vh;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 15%;
+  border-radius: 50%;
+  border: 1px dotted #131039;
+}
+.dugme {
+  color: #eeeeee;
+  border: none;
+  margin-top: 20%;
+  margin-right: 2%;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 10px 40px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid white;
+  background-color: rgba(128, 128, 128, 0.12);
+  box-shadow: 4px 4px 10px 0px rgba(245, 222, 179, 0.25);
+}
+.dugme:hover,
+.dugme1:hover,
+.dugme2:hover {
+  cursor: pointer;
+  border: 2px solid aqua;
+  box-shadow: 4px 4px 10px 0px rgba(0, 255, 255, 0.25);
+  color: aqua;
+}
+button:hover {
+  cursor: pointer;
+}
+.dugme1 {
+  display: flex;
+  color: #eeeeee;
+  border: none;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 1.5vh 5.3vh;
+  cursor: pointer;
+  border: 2px solid white;
+  background-color: rgba(128, 128, 128, 0.12);
+  box-shadow: 4px 4px 10px 0px rgba(245, 222, 179, 0.25);
+}
+
+.dugme2 {
+  background-color: #131039;
+  color: #eeeeee;
+  border: none;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 1.5vh 6vh;
+  cursor: pointer;
+  border: 2px solid white;
+  background-color: rgba(128, 128, 128, 0.12);
+  box-shadow: 4px 4px 10px 0px rgba(245, 222, 179, 0.25);
+}
+
+.dugme3 {
+  background-color: transparent;
+  color: #eeeeee;
+  border: none;
+  font-size: 12px;
+
+  padding: 0.5vh 4vh;
+
+  cursor: pointer;
+}
+
+.profilna {
+  display: flex;
+  flex-direction: column;
+  width: 30vh;
+  align-items: baseline;
+}
+.SaOt {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.otkazi,
+.sacuvaj {
+  margin: 2%;
+}
+
+.uredi {
+  width: fit-content;
+  height: 20vh;
+  column-gap: 10px;
+}
+.linija {
+  border-bottom: 2px solid rgba(0, 255, 255, 0.2);
+  width: 100%;
+  margin-bottom: 5vh;
+  box-shadow: 0px 0px 10px 0px aqua;
+}
+
+.editSve {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.name {
+  color: #131039;
+  border: 1px solid #131039;
+  font-size: 36px;
+
+  display: flex;
+  justify-content: center;
+
+  height: fit-content;
+  width: fit-content;
+}
+
+.txtAN {
+  color: #eeeeee;
+  background-color: transparent;
+  font-size: 80%;
+  border: none;
+  resize: none;
+  flex-wrap: wrap;
+}
+
+.bioEdit,
+.bio,
+.ProfilnaCh {
+  color: #eeeeee;
+  resize: none;
+  border: 1px solid #131039;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.115);
+  box-shadow: 0px 0px 10px 0px white;
+  height: fit-content;
+  border-radius: 15px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+  padding: 2%;
+}
+
+.lozinkaCh {
+  color: #eeeeee;
+  resize: none;
+  border: 1px solid #131039;
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0.115);
+  box-shadow: 0px 0px 10px 0px white;
+  height: fit-content;
+  border-radius: 15px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+  padding: 2%;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 11px;
+  color: red;
+}
+
+@media screen and (max-width: 768px)  {
+  .profil, .profilU{
+    width: 100%;
+    margin: 0;
+    padding-top: 20px;
+  }
+  label{
+    font-size: medium !important;
+  }  
+  .SaOt{
+    width: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .profilna{
+    align-items: center;
+    height: fit-content;
+  }
+  .myImage{
+    margin-top: 0;
+  }
+  .donji{
+    row-gap: 20px;
+  }
+  .korisnik{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .uredi{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    margin-bottom: 40px;
+  }
+  .dugme{
+    display: flex;
+    margin: auto;
+  }
+  .korisnik{
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .korisnik .labela{
+    text-align: center;
+  }
+  .profilna{
+    width: 100%;
+  }
+  .donji{
+    align-items: center;
+    margin:0;
+  }
+  .bioLab{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+  .nickname{
+    align-items: center;
+  }
+  .txtAN{
+    text-align: center;
+  }
+  .profilBasSveU, .profilBasSve{
+    display: flex;
+    padding-top: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .sacuvaj-btn{
+    margin: 0;
+  }
+  .profilU{
+    margin:0;
+  }
+}

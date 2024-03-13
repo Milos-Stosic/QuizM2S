@@ -1,0 +1,239 @@
+
+.adminContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/696/278/original/textured-black-background-vector.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 87vh;
+}
+.adminContainerUnutrasnji{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    font-size: 110%;
+    width: 100%;
+}
+.rowOne{
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 50px;
+    flex-wrap: wrap;
+}
+.smallContainer svg{
+    width: 100px;
+    height: 100px;
+}
+.smallContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    border: 4px solid white;
+    background-color: rgba(128, 128, 128, 0.12);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+}
+.smallContainer:hover{
+    cursor: pointer;
+    border:4px solid aqua;
+    box-shadow: 0px 0px 10px 0px rgba(0, 255, 255, 0.5);
+}
+.smallContainer *{
+    color: white;
+}
+.opis{
+    margin-top: 20px;
+}
+.opis:hover{
+    cursor: pointer;
+}
+.show{
+    display: flex !important;
+}
+.kliknut{
+    cursor: pointer;
+    border:4px solid aqua;
+    box-shadow: 0px 0px 10px 0px rgba(0, 255, 255, 0.5);
+}
+.kliknut *{
+    stroke: aqua;
+    color: aqua;
+}
+.rowKvizovi, .rowKorisnici{
+    display: none;
+    flex-direction: column;
+    background-color: transparent;
+    min-width: 250px;
+    width:55%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid white;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.12);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+}
+.KvizA{
+    font-size: 110%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    width: 100%;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.314);
+    flex-wrap: wrap;
+}
+.kvizOsnovno{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 2% 0% 2% 0%;
+}
+.divX{
+    display: flex;  
+    width: 80%;
+    row-gap: 10px;
+    column-gap: 4%;
+    align-items: center;
+}
+.kvizOsnovno:hover{
+    cursor:pointer;
+}
+.kvizOsnovno:hover *{
+    stroke: aqua;
+    color: aqua;
+}
+.KvizA svg{
+    width: 6%;
+    height: 6%;
+    margin-left: 5%;
+}
+.KvizA:last-child{
+    border-bottom: 0;
+}
+.podaci{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    row-gap: 10px;
+    border-top: 2px solid rgba(0, 255, 255, 0.3);
+    padding: 3.14% 0% 3.14% 0%;
+}
+.PitanjaAdmin{
+    display: flex;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+.questionAdmin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 40px;
+    row-gap: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.314);
+}
+.buttonsAdmin{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 3.14% 0% 3.14% 0%;
+    justify-content: space-evenly;
+}
+.adminContainer button{
+    font-size: large;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.12);
+    box-shadow: 4px 4px 10px 0px rgba(245, 222, 179, 0.25);
+}
+.adminContainer button:hover{
+    cursor:pointer;
+    color: aqua;
+    border: 2px solid aqua;
+    box-shadow: 4px 4px 10px 0px rgba(0, 255, 255, 0.25);
+}
+.rowKorisnici svg{
+    width: 6%;
+    height: 6%;
+}
+.kvizOsnovno p{
+    padding-left: 2%;
+}
+.podaci{
+    background-color: rgba(0, 0, 0, 0.314);
+}
+.correctA{
+    color: lime;
+}
+.korisnikA{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    flex-direction: column;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.314);
+}
+.korisnikA:last-child{
+    border-bottom: 0;
+}
+.korisnikApodaci{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.kvizOsnovno label{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px)  {
+    .questionAdmin{
+        padding: 16px;
+    }
+    .KvizA{
+        flex-direction: column;
+    }
+    .smallContainer svg{
+        width: 70px;
+        height: 70px;
+    }
+    .smallContainer{
+        border: 3px solid white;
+    }
+    .rowKvizovi, .rowKorisnici{
+        border: 3px solid white;
+    }
+    .adminContainer button{
+        font-size: small;
+    }
+    .rowKorisnici, .rowKvizovi{
+        border: 3px solid white;
+    }
+    .rowKorisnici .kvizOsnovno p, .rowKorisnici svg{
+        padding: 3.14%;
+    }
+    .smallContainer:hover{
+        border:3px solid aqua;
+        box-shadow: 4px 4px 10px 0px rgba(0, 255, 255, 0.25);
+    }
+    .rowKorisnici svg{
+        width: 10%;
+        height: 10%;
+        margin-left: 50%;
+    }
+}

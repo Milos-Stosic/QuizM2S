@@ -1,0 +1,208 @@
+.page {
+  min-height: 92vh;
+  align-items: center;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/696/278/original/textured-black-background-vector.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.slika{
+  width: 30%; /* Adjust the size as needed */
+  height: 30%;
+  min-width: 450px;
+}
+
+.contactUs-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  min-width: 450px;
+  font-size: 16px;
+}
+
+.input-contact,
+.contact-btn {
+  width: 100%;
+  height: 35px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  font-size: larger;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.error-contact {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2%;
+  font-size: 15px;
+  color: red;
+}
+
+.contact-btn {
+  border: 1px solid #131039;
+  background-color: rgb(124, 124, 124, 0.6);
+  box-shadow: 0px 0px 10px 0px white;
+}
+
+.input-contact {
+  border: 1px solid #131039;
+  background-color: rgb(124, 124, 124, 0.6);
+  box-shadow: 0px 0px 10px 0px white;
+  height: fit-content;
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+  padding: 2%;
+}
+
+.input-contact:focus {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.textarea-contact {
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100px;
+  min-height: 100px;
+  outline: none;
+  color: #eeeeee;
+  resize: none;
+  border: 1px solid #131039;
+  width: 70%;
+  background-color: rgb(124, 124, 124, 0.6);
+  box-shadow: 0px 0px 10px 0px white;
+  height: fit-content;
+  border-radius: 15px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+  padding: 2%;
+  font-size: medium;
+}
+
+.textarea-contact:focus {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.label-contact {
+  text-align: left;
+  width: 100%;
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: larger;
+  margin-bottom: 2%;
+}
+
+.contact-btn[type="submit"] {
+  margin-top: 2rem;
+  cursor: pointer;
+  background: rgba(0, 255, 255, 0.623);
+  color: white;
+  border: none;
+}
+
+.select-role {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  background: linear-gradient(
+    to bottom,
+    hsl(37, 7%, 22%),
+    hsl(37, 5%, 19%) 100%
+  );
+  border: 1px solid #404040;
+  padding: 0.6em 1em;
+  font: inherit;
+  color: #bababa;
+  border-radius: 3px;
+  margin: 0.5em;
+  margin-top: 0;
+  margin-left: 0;
+  min-width: fit-content;
+  min-height: fit-content;
+}
+
+.role-div {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.role-button,.role-button-picked {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+  font-size: 100%;
+  border-radius: 24px;
+}
+.role-button:hover,.role-button-cancel:hover{
+  cursor: pointer;
+  border: 2px solid aqua;
+}
+
+.role-button-picked{
+  border: 2px solid aqua;
+  color:aqua;
+}
+
+.role-button-cancel{
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  font-size: larger;
+  align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .role-button, .role-button-cancel{
+    margin-top: 7% !important;
+    width: 100%;
+    font-size: small !important;
+  }
+  .contactUs-div{
+    margin-top: 10px;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-bottom: 20px;
+  }
+  .slika, .form-contact{
+    min-width: 250px;
+  }
+  .slika{
+    order: 0;
+  }
+  .form-contact{
+    order: 1;
+  }
+  .label-contact{
+    font-size: large !important;
+  }
+
+  .contact-btn{
+    margin-top: 7% !important;
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "Categories":[
+        {"id":0, "title": "Razno", "numberQ":"∞", "img":""},
+        {"id":1, "title": "Istorija", "numberQ":0, "img":""},
+        {"id":2, "title": "Geografija", "numberQ":0, "img":""},
+        {"id":3, "title": "Muzika", "numberQ":0, "img":""},
+        {"id":4, "title": "Knjizevnost", "numberQ":0, "img":""},
+        {"id":5, "title": "Video Igre", "numberQ":0, "img":""},
+        {"id":6, "title": "Filmovi i Serije", "numberQ":0, "img":""}
+    ]
+}
